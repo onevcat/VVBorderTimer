@@ -1,0 +1,291 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D194E0DE14A36B09003C2A04 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D194E0DD14A36B09003C2A04 /* UIKit.framework */; };
+		D194E0E014A36B09003C2A04 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D194E0DF14A36B09003C2A04 /* Foundation.framework */; };
+		D194E0E214A36B09003C2A04 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D194E0E114A36B09003C2A04 /* CoreGraphics.framework */; };
+		D194E0E814A36B09003C2A04 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D194E0E614A36B09003C2A04 /* InfoPlist.strings */; };
+		D194E0EA14A36B09003C2A04 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D194E0E914A36B09003C2A04 /* main.m */; };
+		D194E0EE14A36B09003C2A04 /* VVAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D194E0ED14A36B09003C2A04 /* VVAppDelegate.m */; };
+		D194E0F814A36B61003C2A04 /* VVBorderTimerDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D194E0F614A36B61003C2A04 /* VVBorderTimerDemoViewController.m */; };
+		D194E0F914A36B61003C2A04 /* VVBorderTimerDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D194E0F714A36B61003C2A04 /* VVBorderTimerDemoViewController.xib */; };
+		D194E0FC14A36BAE003C2A04 /* VVBorderTimerView.m in Sources */ = {isa = PBXBuildFile; fileRef = D194E0FB14A36BAE003C2A04 /* VVBorderTimerView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D194E0D914A36B09003C2A04 /* VVBorderTimerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VVBorderTimerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D194E0DD14A36B09003C2A04 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D194E0DF14A36B09003C2A04 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D194E0E114A36B09003C2A04 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D194E0E514A36B09003C2A04 /* VVBorderTimerDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VVBorderTimerDemo-Info.plist"; sourceTree = "<group>"; };
+		D194E0E714A36B09003C2A04 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D194E0E914A36B09003C2A04 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D194E0EB14A36B09003C2A04 /* VVBorderTimerDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VVBorderTimerDemo-Prefix.pch"; sourceTree = "<group>"; };
+		D194E0EC14A36B09003C2A04 /* VVAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VVAppDelegate.h; sourceTree = "<group>"; };
+		D194E0ED14A36B09003C2A04 /* VVAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VVAppDelegate.m; sourceTree = "<group>"; };
+		D194E0F514A36B61003C2A04 /* VVBorderTimerDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VVBorderTimerDemoViewController.h; sourceTree = "<group>"; };
+		D194E0F614A36B61003C2A04 /* VVBorderTimerDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VVBorderTimerDemoViewController.m; sourceTree = "<group>"; };
+		D194E0F714A36B61003C2A04 /* VVBorderTimerDemoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VVBorderTimerDemoViewController.xib; sourceTree = "<group>"; };
+		D194E0FA14A36BAE003C2A04 /* VVBorderTimerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VVBorderTimerView.h; path = VVBorderTimerView/VVBorderTimerView.h; sourceTree = "<group>"; };
+		D194E0FB14A36BAE003C2A04 /* VVBorderTimerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VVBorderTimerView.m; path = VVBorderTimerView/VVBorderTimerView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D194E0D614A36B09003C2A04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D194E0DE14A36B09003C2A04 /* UIKit.framework in Frameworks */,
+				D194E0E014A36B09003C2A04 /* Foundation.framework in Frameworks */,
+				D194E0E214A36B09003C2A04 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D194E0CE14A36B08003C2A04 = {
+			isa = PBXGroup;
+			children = (
+				D194E0E314A36B09003C2A04 /* VVBorderTimerDemo */,
+				D194E0DC14A36B09003C2A04 /* Frameworks */,
+				D194E0DA14A36B09003C2A04 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D194E0DA14A36B09003C2A04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D194E0D914A36B09003C2A04 /* VVBorderTimerDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D194E0DC14A36B09003C2A04 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D194E0DD14A36B09003C2A04 /* UIKit.framework */,
+				D194E0DF14A36B09003C2A04 /* Foundation.framework */,
+				D194E0E114A36B09003C2A04 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D194E0E314A36B09003C2A04 /* VVBorderTimerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D194E0F414A36B1F003C2A04 /* VVBorderTimerView */,
+				D194E0F514A36B61003C2A04 /* VVBorderTimerDemoViewController.h */,
+				D194E0F614A36B61003C2A04 /* VVBorderTimerDemoViewController.m */,
+				D194E0F714A36B61003C2A04 /* VVBorderTimerDemoViewController.xib */,
+				D194E0EC14A36B09003C2A04 /* VVAppDelegate.h */,
+				D194E0ED14A36B09003C2A04 /* VVAppDelegate.m */,
+				D194E0E414A36B09003C2A04 /* Supporting Files */,
+			);
+			path = VVBorderTimerDemo;
+			sourceTree = "<group>";
+		};
+		D194E0E414A36B09003C2A04 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D194E0E514A36B09003C2A04 /* VVBorderTimerDemo-Info.plist */,
+				D194E0E614A36B09003C2A04 /* InfoPlist.strings */,
+				D194E0E914A36B09003C2A04 /* main.m */,
+				D194E0EB14A36B09003C2A04 /* VVBorderTimerDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D194E0F414A36B1F003C2A04 /* VVBorderTimerView */ = {
+			isa = PBXGroup;
+			children = (
+				D194E0FA14A36BAE003C2A04 /* VVBorderTimerView.h */,
+				D194E0FB14A36BAE003C2A04 /* VVBorderTimerView.m */,
+			);
+			name = VVBorderTimerView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D194E0D814A36B09003C2A04 /* VVBorderTimerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D194E0F114A36B09003C2A04 /* Build configuration list for PBXNativeTarget "VVBorderTimerDemo" */;
+			buildPhases = (
+				D194E0D514A36B09003C2A04 /* Sources */,
+				D194E0D614A36B09003C2A04 /* Frameworks */,
+				D194E0D714A36B09003C2A04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VVBorderTimerDemo;
+			productName = VVBorderTimerDemo;
+			productReference = D194E0D914A36B09003C2A04 /* VVBorderTimerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D194E0D014A36B08003C2A04 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Tsinghua University";
+			};
+			buildConfigurationList = D194E0D314A36B08003C2A04 /* Build configuration list for PBXProject "VVBorderTimerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D194E0CE14A36B08003C2A04;
+			productRefGroup = D194E0DA14A36B09003C2A04 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D194E0D814A36B09003C2A04 /* VVBorderTimerDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D194E0D714A36B09003C2A04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D194E0E814A36B09003C2A04 /* InfoPlist.strings in Resources */,
+				D194E0F914A36B61003C2A04 /* VVBorderTimerDemoViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D194E0D514A36B09003C2A04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D194E0EA14A36B09003C2A04 /* main.m in Sources */,
+				D194E0EE14A36B09003C2A04 /* VVAppDelegate.m in Sources */,
+				D194E0F814A36B61003C2A04 /* VVBorderTimerDemoViewController.m in Sources */,
+				D194E0FC14A36BAE003C2A04 /* VVBorderTimerView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D194E0E614A36B09003C2A04 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D194E0E714A36B09003C2A04 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D194E0EF14A36B09003C2A04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D194E0F014A36B09003C2A04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D194E0F214A36B09003C2A04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VVBorderTimerDemo/VVBorderTimerDemo-Prefix.pch";
+				INFOPLIST_FILE = "VVBorderTimerDemo/VVBorderTimerDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D194E0F314A36B09003C2A04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VVBorderTimerDemo/VVBorderTimerDemo-Prefix.pch";
+				INFOPLIST_FILE = "VVBorderTimerDemo/VVBorderTimerDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D194E0D314A36B08003C2A04 /* Build configuration list for PBXProject "VVBorderTimerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D194E0EF14A36B09003C2A04 /* Debug */,
+				D194E0F014A36B09003C2A04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D194E0F114A36B09003C2A04 /* Build configuration list for PBXNativeTarget "VVBorderTimerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D194E0F214A36B09003C2A04 /* Debug */,
+				D194E0F314A36B09003C2A04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D194E0D014A36B08003C2A04 /* Project object */;
+}

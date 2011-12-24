@@ -7,7 +7,7 @@
 
 ##How to use
 Just see the demo or refer to [this post][howto].
-[howto]:http://baidu.com
+[howto]:http://www.onevcat.com/showcase/vvbordertimer/
 
 
 ##Lisence

@@ -619,6 +619,11 @@
 
 -(void) start
 {
+    if (!_colors)
+    {
+        self.colors = nil;
+    }
+    
     [_timer invalidate];
     _finished = NO;
     _drawedTime = 0;

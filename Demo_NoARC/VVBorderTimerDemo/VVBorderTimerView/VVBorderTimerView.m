@@ -329,11 +329,23 @@
 {
     float r1,g1,b1,a1;
     float r2,g2,b2,a2;
-    [aColor getRed:&r1 green:&g1 blue:&b1 alpha:&a1];
-    [anotherColor getRed:&r2 green:&g2 blue:&b2 alpha:&a2];
+
+	const CGFloat *aColors = CGColorGetComponents(aColor.CGColor);
+	const CGFloat *anColors = CGColorGetComponents(anotherColor.CGColor);
+	r1 = aColors[0];
+	g1 = aColors[1];
+	b1 = aColors[2];
+	a1 = aColors[3];
+		
+	r2 = anColors[0];
+	g2 = anColors[1];
+	b2 = anColors[2];
+	a2 = anColors[3];
+		
     float r = r1 + (r2 - r1) * aPercent;
     float g = g1 + (g2 - g1) * aPercent;
     float b = b1 + (b2 - b1) * aPercent;
+
     if (r < 0.001 && g < 0.001 && b < 0.001)
     {
         return [UIColor blackColor];
